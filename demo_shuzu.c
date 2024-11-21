@@ -16,7 +16,7 @@ int main()
     }
     puts("数组初始化完毕");
     for(data = 0;data < 10; data++){
-        printf("%d ",a[data]);
+        printf("address：%p, data：%d\n",&a[data],a[data]);
     }
     puts("done!");
     return 0;
