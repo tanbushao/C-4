@@ -2,9 +2,9 @@
 
 int main()
 {
-    int a[10];//ÕâÀïµÄ10±íÊ¾´óĞ¡
+    int a[10];//è¿™é‡Œçš„10è¡¨ç¤ºå¤§å°
     int data;
-    /*´À
+    /*è ¢
     a[0] = 100;
     a[1] = 102;
     a[2] = 1110;
@@ -14,9 +14,9 @@ int main()
         a[data] = data+100;
         //printf("%d ",a[data]);
     }
-    puts("Êı×é³õÊ¼»¯Íê±Ï");
+    puts("æ•°ç»„åˆå§‹åŒ–å®Œæ¯•");
     for(data = 0;data < 10; data++){
-        printf("address£º%p, data£º%d\n",&a[data],a[data]);
+        printf("addressï¼š%p, dataï¼š%d\n",&a[data],a[data]);
     }
     puts("done!");
     return 0;
