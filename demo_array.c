@@ -9,9 +9,9 @@ int main()
     int size;
         //把整个数组的大小，除以数组中一个元素的大小，就能获得整改个数
     size = sizeof(array)/sizeof(array[0]);//sizeof关键字，能计算括号中对应数据的内存空间大小
-    printf("array的个数有：%d\n",size);
+    printf("The number of elements in the array is:%d\n",size);
     for(data = 0; data<10; data++){
-        printf("address：%p, data：%d\n",&a[data],a[data]);
+        printf("address:%p, data:%d\n",&a[data],a[data]);
     }
     return 0;
 }
